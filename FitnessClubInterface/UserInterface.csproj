@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<OutputType>Exe</OutputType>
+	</PropertyGroup>
+
+	<ItemGroup>
+		    <None Remove="User_Interface\MenuInterface.cs~RFf37fd5a.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+<ProjectReference Include="..\FitnessClubBusinessLogic\BusinessLogic.csproj" />
+	</ItemGroup>
+
+</Project>
